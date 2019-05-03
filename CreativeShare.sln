@@ -24,6 +24,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CreativeShare", ".", "{98EE
 		SlnRelativePath = "..\CreativeShare\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MSCreativeShare", "..\MSCreativeShare\", "{E2AF9795-E6F6-4D59-A742-5608D515CEB6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_65379"
+		Debug.AspNetCompiler.PhysicalPath = "..\MSCreativeShare\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65379\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_65379"
+		Release.AspNetCompiler.PhysicalPath = "..\MSCreativeShare\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65379\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "65379"
+		SlnRelativePath = "..\MSCreativeShare\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +52,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{98EE0AB8-BEB5-46E0-8E5D-F9DA763461AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{98EE0AB8-BEB5-46E0-8E5D-F9DA763461AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2AF9795-E6F6-4D59-A742-5608D515CEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2AF9795-E6F6-4D59-A742-5608D515CEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
